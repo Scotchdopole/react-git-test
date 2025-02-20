@@ -10,6 +10,7 @@ export default function AppRoutes() {
         <Routes>
             <Route path='/vtipnastranka' element={<VtipnaStranka/>} />
             <Route path='/milujujirku' element={<MilujuJirku/>} />
+            <Route path='/retar' element={<Retar/>} />
         </Routes>
     </BrowserRouter>
   )
